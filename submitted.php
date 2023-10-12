@@ -1,20 +1,18 @@
 <?php
 
-$soundreq = $_FILES["soundreq"];
-$banner = $_POST["banner"];
-if (!$soundreq || !$banner) {
+// get the submitted banner id
+$banner = $_POST['banner'];
+// get the submitted sound URL
+$snd_url = $_POST['snd_url'];
+
+// if post data is missing fail and die
+if (!$banner || !$snd_url) {
 	echo "Request failed. Try resubmitting the form.";
 	die();
 }
-$error = $soundreq["error"];
-if ($error == 2) {
-	echo "Request failed. Filesize was too large."
-	die();
-}
 
-//move_uploaded_file($_FILES["soundreq"]["tmp_name"], $banner);
-
-echo $soundreq["tmp_name"];
-echo $soundreq["error"];
+// test - echos the posted data
+echo $banner;
+echo $snd_url;
 
 ?>
