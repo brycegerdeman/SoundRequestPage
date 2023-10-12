@@ -2,5 +2,9 @@ THE PROJECT
 
 - Has a Form page to add a banner ID, and a sound file
 
-- the use of the link per the BannerID that gave it
+- Change name of sound file to subbmited bannerID
+
+- the use of the path of file as link to BannerID that correlates with name of file
+
+
 
