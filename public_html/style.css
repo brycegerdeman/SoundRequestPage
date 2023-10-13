@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #111;
+}
+
+#page {
+    box-sizing: border-box;
+    padding: 20px;        
+}
+
+#sndform {
+    background-color: #DDD;
+    padding: 10px;
+}
+
+#hint {
+    font-size: 0.7em;
+    font-style: italic;
+    color: #333;
+}
+
+.inputwrap {
+    text-align: center;
+    /*width: auto;*/
+    background-color: #EEE;
+    border: 1px solid #444;
+    padding: 20px 8px 20px 8px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+input {
+    margin-top: 8px;
+}
+
+#submit, #fileupload::file-selector-button {
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+#submit {
+    position: relative;
+    right: 0px;
+    width: 150px;
+    height: 80px;
+    font-size: 1.1em;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+#inputsblock {
+    width: 50%;
+    margin: auto;
+}
