@@ -1,6 +1,23 @@
 THE PROJECT
 
-- Has a Form page to add a banner ID, and a sound file
+Option 1: Custom file (sound) hosting server.
 
-- the use of the link per the BannerID that gave it
+    - Has a form page to submit a banner ID and upload sound file
+    - Uploaded file will be named "[bannerID].mp3" for easy access per student
 
+Option 2: Using existing hosting server and link upload.
+
+    - Has a form page to submit a banner ID and link to externally hosted mp3
+
+Important notes:
+
+    - Need a thorough disclaimer for what kind of content cannot be uploaded
+    - How to deal with multiple submissions (allow only one per user?)
+
+Other ideas:
+
+    - Create a whole new wrapper site for the Q2 tables;
+        - Can query the Q2 table site for all the necessary data,
+          with custom design and functionality
+        - Easier to play custom sounds and also fixes issues with
+          refresh rate, etc.
