@@ -15,7 +15,7 @@
 		<div id="inputsblock">
 			<div class="inputwrap">
 				<label for="banner">Banner ID:</label><br>
-				<input type="text" name="banner">
+				<input type="text" name="banner" placeholder="900...">
 			</div>
 			<div class="inputwrap">
 				<label for="">Upload your sound:<br>

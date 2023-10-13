@@ -28,16 +28,16 @@ body {
     border: 1px solid #444;
     padding: 20px 8px 20px 8px;
     margin-top: 20px;
-    margin-bottom: 15px;
-    display: block;
+    margin-bottom: 5px;
 }
 
 input {
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 #submit, #fileupload::file-selector-button {
-    background-color: goldenrod;
+    border: 1px solid #222;
+    background-color: #FFCC00;
     color: white;
     font-weight: bold;
 }
@@ -46,17 +46,24 @@ input {
     position: relative;
     width: 50%;
     margin: auto;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 #submit {
     position: absolute;
-    right: 0px;
+    right: 1px;
+    bottom: 10px;
     width: 120px;
     height: 55px;
     font-size: 1.1em;
     padding-top: 5px;
     box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 3px 3px 4px 1px #222;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 0px #555;
+}
+
+#submit:active {
+    right: 0px;
+    bottom: 9px;
+    box-shadow: none;
 }
