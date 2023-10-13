@@ -42,17 +42,21 @@ input {
     font-weight: bold;
 }
 
-#submit {
+#inputsblock {
     position: relative;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+#submit {
+    position: absolute;
     right: 0px;
-    width: 150px;
-    height: 80px;
+    width: 120px;
+    height: 55px;
     font-size: 1.1em;
     padding-top: 5px;
     box-sizing: border-box;
-}
-
-#inputsblock {
-    width: 50%;
-    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px 1px #222;
 }

@@ -12,7 +12,7 @@
 		
 	<form id="sndform" enctype="multipart/form-data" method="post" action="submitted.php">
 		
-		<div id="inputblock">
+		<div id="inputsblock">
 			<div class="inputwrap">
 				<label for="banner">Banner ID:</label><br>
 				<input type="text" name="banner">
